@@ -1,3 +1,9 @@
-@tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind base;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}

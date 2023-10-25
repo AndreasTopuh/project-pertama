@@ -1,15 +1,16 @@
+/* eslint-disable no-unused-vars */
 import Navbar from "./components/Navbar"
-import Body from "./body/Body"
+import { Label } from "./Label/label"
+// import Box from "./box/box"
+// import Frame from "./frame1/Frame"
 
 export default function App() {
   return (
     <>
-    <div>
+      {/* <Frame /> */}
       <Navbar />
-    </div>
-    <div>
-      <Body />
-    </div>
+      <Label />
+      {/* <Box /> */}
     </>
   )
 }
